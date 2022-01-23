@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Faker\Extension;
 
 use Faker\Core;
+use Faker\Provider\UserAgentExtension;
 use Psr\Container\ContainerInterface;
 
 /**
@@ -65,6 +66,7 @@ final class ContainerBuilder
             BloodExtension::class => Core\Blood::class,
             FileExtension::class => Core\File::class,
             NumberExtension::class => Core\Number::class,
+            UserAgentExtension::class => Core\UserAgent::class,
             VersionExtension::class => Core\Version::class,
         ];
     }
