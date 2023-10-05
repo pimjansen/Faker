@@ -28,7 +28,7 @@ class Person extends \Faker\Provider\Person
     protected static $firstNameMale = [
         'Adam', 'Aleš', 'Alois', 'Antonín', 'Bohumil', 'Bohuslav', 'Dagmar',
         'Dalibor', 'Daniel', 'David', 'Dominik', 'Dušan', 'Eduard', 'Emil',
-        'Filip', 'František', 'Ilona', 'Ivan', 'Ivo', 'Jakub', 'Jan', 'Ján',
+        'Filip', 'František', 'Igor', 'Ivan', 'Ivo', 'Jakub', 'Jan', 'Ján',
         'Jaromír', 'Jaroslav', 'Jindřich', 'Jiří', 'Josef', 'Jozef', 'Kamil',
         'Karel', 'Kryštof', 'Ladislav', 'Libor', 'Lubomír', 'Luboš', 'Luděk',
         'Ludvík', 'Lukáš', 'Marcel', 'Marek', 'Martin', 'Matěj', 'Matyáš',
